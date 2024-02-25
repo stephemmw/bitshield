@@ -41,9 +41,15 @@ body{
     line-height: 1.25rem;
     letter-spacing: 0.01rem;
 }
-
+.landing p.call-to-action{
+  margin-top:15vh;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.15rem;
+  letter-spacing: 0.01rem;
+}
 .landing .btn{
-    margin-top: 10vh;
+    margin-top: 1vh;
     padding: 0px;
     font-weight: 600;
     width: 5rem;
