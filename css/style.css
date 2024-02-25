@@ -1,0 +1,97 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.landing{
+    width:100%;
+    min-height: 100vh;
+    color: #fff;
+    background-color: #232e34;
+    background-image: url('../images/banner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: normal;
+    text-align:center;   
+}
+.landing .navbar .nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+}
+.landing .navbar .nav .nav-item .nav-link:hover,
+.landing .navbar .nav .nav-item .nav-link:active{
+   border-bottom-color: #fff;
+}
+.landing .navbar .nav .nav-item .nav-link:active{
+    border-color: #a2a2a2;
+}
+
+.landing h1{
+    margin-top: 18vh;
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: 0.05rem;
+}
+.landing p{
+    margin-top:15vh;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+    letter-spacing: 0.01rem;
+}
+
+.landing .btn{
+    margin-top: 10vh;
+    padding: 0px;
+    font-weight: 600;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    color: #fff;
+    background: transparent;
+    border-color: transparent;
+    text-align: center;
+    cursor: default;
+}
+@keyframes pulseAnimation {
+    0% {
+      color: #dcdcdc;
+    }
+    50% {
+      color: #7c9db0; /* Lighter shade for emphasis */
+    }
+    100% {
+      color: #dcdcdc;
+    }
+  }
+  
+  .landing .btn .bi {
+    font-size: 3.25rem;
+    cursor: pointer;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    animation: pulseAnimation 2s ease-in-out infinite;
+  }
+  
+  .landing .btn .bi:hover {
+    animation-play-state: paused;
+    color: #dcdcdc;
+    /* Consider adding a subtle hover animation here, e.g., transform: scale(1.05); */
+  } 
+  .services{
+    width:100%;
+    min-height: 100vh;
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .landing .navbar .nav .nav-item .nav-link{
+        font-size: 1.25rem;
+    }
+    .landing h1{
+        font-size: 3.25rem;
+    }
+    .landing p{
+        font-size: 1.5rem;
+    }
+  }
