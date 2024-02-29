@@ -14,13 +14,37 @@ footer .footer-copy{
   justify-content: center;
 }
 .navbar{
+  padding:5px;
   background-color:#202932;
+  border-color: transparent;
+  background-image: url('../images/banner-strip.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.navbar .navbar-brand{
+  color: #fff;
 }
 .navbar .nav .nav-item .nav-link{
   color: #fff;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 600;
   border-bottom: 2px solid transparent;
+}
+.navbar .nav .nav-item .nav-link:hover,
+.navbar .nav .nav-item .nav-link:active{
+   border-bottom-color: #fff;
+}
+.navbar .nav .nav-item .nav-link:active{
+    border-color: #a2a2a2;
+}
+.navbar .navbar-toggler{
+  border-width: 2px;
+  border-color: #fff;
+  color: #fff;
+}
+.navbar .navbar-toggler:active{
+  border-width: 2px;
 }
 .landing{
     width:100%;
@@ -33,14 +57,6 @@ footer .footer-copy{
     background-repeat: no-repeat;
     mix-blend-mode: normal;
     text-align:center;   
-}
-
-.landing .navbar .nav .nav-item .nav-link:hover,
-.landing .navbar .nav .nav-item .nav-link:active{
-   border-bottom-color: #fff;
-}
-.landing .navbar .nav .nav-item .nav-link:active{
-    border-color: #a2a2a2;
 }
 
 .landing h1{
@@ -171,7 +187,7 @@ footer .footer-copy{
   font-size: 1.1rem;
 }
   @media screen and (min-width: 1024px) {
-    .landing .navbar .nav .nav-item .nav-link{
+    .navbar .nav .nav-item .nav-link{
         font-size: 1.25rem;
     }
     .landing h1{

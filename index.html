@@ -24,14 +24,28 @@
             <img src="favicon-32x32.png" alt="Home" class="brand-logo">
             BITSHIELD SOLUTIONS
         </a>
-        <ul class="nav mx-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#" title="Learn about us">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#" title="Get in touch">Contact</a>
-            </li>
-        </ul>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#primary_collapse">
+            <i class="bi bi-list"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="primary_collapse">
+            <ul class="nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Learn about us">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" title="Get in touch">Contact</a>
+                </li>
+            </ul>
+            <ul class="nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#clients" title="Our Clients">Clients</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#partners" title="Our Partners">Partners</a>
+                </li>
+            </ul>
+        </div>
+        
     </nav>
     <div class="landing">        
         <div class="container-fluid">
@@ -155,7 +169,7 @@
             </div>
         </div>
     </div>
-    <div class="clients section">
+    <div class="clients section" id="clients">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -188,7 +202,7 @@
             </div>
         </div>
     </div>
-    <div class="partners section">
+    <div class="partners section" id="partners">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
