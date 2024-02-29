@@ -1,11 +1,32 @@
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+footer{
+  border-top: 1px #dadde1 solid;
+}
+footer .footer-copy{
+  margin-bottom: .5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.flex-row{
+  display: flex;
+  justify-content: center;
+}
+.navbar{
+  background-color:#202932;
+}
+.navbar .nav .nav-item .nav-link{
+  color: #fff;
+  font-size: 1.15rem;
+  font-weight: 600;
+  border-bottom: 2px solid transparent;
 }
 .landing{
     width:100%;
     min-height: 100vh;
     color: #fff;
-    background-color: #232e34;
+    background-color: #c6d4db;
     background-image: url('../images/banner.jpg');
     background-position: center;
     background-size: cover;
@@ -13,12 +34,7 @@ body{
     mix-blend-mode: normal;
     text-align:center;   
 }
-.landing .navbar .nav .nav-item .nav-link{
-    color: #fff;
-    font-size: 1.15rem;
-    font-weight: 600;
-    border-bottom: 2px solid transparent;
-}
+
 .landing .navbar .nav .nav-item .nav-link:hover,
 .landing .navbar .nav .nav-item .nav-link:active{
    border-bottom-color: #fff;
@@ -63,12 +79,47 @@ body{
     text-align: center;
     cursor: default;
 }
+.section{
+  width: 100%;
+  min-height: 100vh;  
+  padding-bottom: 2rem;
+  z-index: -5;
+}
+.section header{
+  width:100%;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight:600;
+  text-align: center;
+  z-index: 5;
+}
+.section .card{
+  margin-bottom: 1rem;
+  border-color: transparent;
+  opacity: 100%;
+  box-shadow: 16px 16px 8px 8px #232e346d;  
+  box-shadow: 16px 16px -8px -8px #232e346d;
+}
+.section .card .card-header{  
+  color: #fff;
+  background-color: #232e34;
+}
+.section .card .card-header h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.section .card .card-body ul li{
+  font-weight: 1rem;
+}
+
 @keyframes pulseAnimation {
     0% {
       color: #dcdcdc;
     }
     50% {
-      color: #7c9db0; /* Lighter shade for emphasis */
+      color: #5068f2; /* Lighter shade for emphasis */
     }
     100% {
       color: #dcdcdc;
@@ -87,11 +138,38 @@ body{
     color: #dcdcdc;
     /* Consider adding a subtle hover animation here, e.g., transform: scale(1.05); */
   } 
-  .services{
-    width:100%;
-    min-height: 100vh;
-  }
   
+  .services, .partners{
+    background-color:rgba(237, 237, 237, 0.1)
+  }
+  .clients{
+    background-color:rgba(237, 237, 237, 0.405)
+  }
+.clients, .partners{
+  min-height: 50vh;
+}
+
+.partners .partner,
+.clients .client{
+  width: 100%;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.partners .logo,
+.clients .logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #a9aeb1;
+}
+.partners .link,
+.clients .link{
+  width: 100%;
+  text-align: center;
+}
+.partners .link .bi{
+  font-size: 1.1rem;
+}
   @media screen and (min-width: 1024px) {
     .landing .navbar .nav .nav-item .nav-link{
         font-size: 1.25rem;
@@ -104,7 +182,10 @@ body{
         font-size: 1.5rem;
     }
     .landing p.call-to-action{
-      margin-top:15vh;
-      
+      margin-top:15vh;      
+    }
+    
+    .section .card{
+      margin-bottom: 2rem;
     }
   }

@@ -19,17 +19,17 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="landing">
-        <nav class="navbar navbar-expand-lg"> 
-            <ul class="nav mx-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#" title="Learn about us">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" title="Get in touch">Contact</a>
-                </li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg sticky-top"> 
+        <ul class="nav mx-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#" title="Learn about us">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" title="Get in touch">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="landing">        
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12">
@@ -37,13 +37,230 @@
                     <p id="website_description">The Expert ICT Solutions Provider</p>
 
                     <p class="call-to-action">Click below to get started</p>
-                    <button href="/#services" class="btn" title="Get Started"><i class="bi bi-arrow-down-circle bi-2x"></i></button>
+                    <button id="goto_services" class="btn" title="Get Started"><i class="bi bi-arrow-down-circle bi-2x"></i></button>
                 </div>
             </div>
         </div>
     </div>
-   
+    <div class="services section" id="services">
+        <div class="container-fluid">
+            <div class="row flex-row">
+                <div class="col-12">
+                    <header>Our Services</header>
+                </div>               
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>Network Infrastructure</h2>
+                                </div>
+                                <div class="card-body">
+                                    <p>Looking to optimize your network connectivity? Our Network Infrastructure services design and implement efficient wired, wireless, and virtualized solutions to meet your specific needs:</p>
+                                    <!--p>What we offer:</p>
+                                    <ul>
+                                        <li>IP PBX (Avaya and Cisco) deployment </li>
+                                        <li> Network design and installation (LAN, WAN, WLAN)</li>
+                                        <li> Structured cabling</li>
+                                        <li> Data Center Virtualization</li>
+                                        <li>Terrestrial VHF Radio design and deployment</li>
+                                    </ul-->
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-warning">Learn More</a>
+                                </div>
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row ">
+                        <div class="col-12 col-md-6"></div>
+                        <div class="col-12 col-md-5">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>Cyber Security</h2>
+                                </div>
+                                <div class="card-body">
+                                    <p>Concerned about your online security? Our Cybersecurity services offer a comprehensive suite of solutions to protect your systems and data from evolving threats:</p>
+                                    <!--p>What we offer:</p>
+                                    <ul>
+                                        <li>Penetration Testing</li>
+                                        <li>Vulnerability Assessment</li>
+                                        <li>Perimeter firewall </li>
+                                        <li>Security Audits</li> 
+                                        <li> Endpoint protection</li>
+                                        <li> Cloud Security</li>
+                                    </ul-->
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-warning">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-12 col-md-5">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>Data Storage and Management</h2>
+                                </div>
+                                <div class="card-body">
+                                    <p>Managing your data effectively can be a challenge. Our Data Management services provide tools and expertise to organize, secure, and access your information seamlessly, whether on-premises or in the cloud</p>
+                                    <!--p>What we offer:</p>
+                                    <ul>
+                                        <li> Data Recovery</li>
+                                        <li> Data Backup and Replication</li>
+                                        <li> Microsoft Office 365 Administration</li>
+                                        <li> Data Center Virtualization (VMware and HyperV)</li>
+                                        <li> CCTV Surveillance & Video Conference Solutions</li>
+                                    </ul-->
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-warning">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <div class="col-12">
+                    <div class="row ">
+                        <div class="col-12 col-md-6"></div>
+                        <div class="col-12 col-md-5">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h2>Custom Solutions</h2>
+                                </div>
+                                <div class="card-body">
+                                    <p>Need a software solution tailored to your unique business processes? Our Custom Software development services build applications that automate tasks and improve workflow for increased efficiency</p>
+                                    <!--p>What we offer:</p>
+                                    <ul>
+                                        <li> IT Out Sourcing </li>
+                                        <li> Business Process Automation</li>
+                                    </ul-->
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-warning">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clients section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <header>Our Clients</header>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="client">
+                        <a href="https://oljogi.org/" target="_blank" class="link" title="Oljogi Conservancy">
+                            <img class="logo" src="images/clients/jogi-logo.png" alt="Oljogi Conservancy">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="client">
+                        <a href="https://ims.co.ke/" target="_blank" class="link" title="Interactive Media Services">
+                            <img class="logo" src="images/clients/ims-logo.webp" alt="Interactive Media Services">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="client">
+                        <a href="https://oljogi.org/" target="_blank" class="link" title="Oljogi Conservancy">
+                            <img class="logo" src="images/clients/jogi-logo.png" alt="Oljogi Conservancy">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partners section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <header>Our Partners</header>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="partner">
+                        <a href="https://www.fortinet.com" target="_blank" class="link" title="Fortinet">                            
+                            <img class="logo" src="images/partners/fortinet-logo.png" alt="Fortinet">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="partner">
+                        <a href="https://www.cisco.com" target="_blank" class="link" title="Cisco">                            
+                            <img class="logo" src="images/partners/cisco-logo.png" alt="Cisco">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="partner">
+                        <a href="https://www.microsoft.com" target="_blank" class="link" title="Microsoft">                            
+                            <img class="logo" src="images/partners/microsoft-logo.png" alt="Microsoft">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="partner">
+                        <a href="https://www.veeam.com" target="_blank" class="link" title="Veeam">                            
+                            <img class="logo" src="images/partners/veeam-logo.png" alt="Veeam">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="partner">
+                        <a href="https://www.checkpoint.com" target="_blank" class="link" title="Checkpoint">                            
+                            <img class="logo" src="images/partners/checkpoint-logo.png" alt="Checkpoint">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="partner">
+                        <a href="https://www.kaspersky.com" target="_blank" class="link" title="Kaspersky">                            
+                            <img class="logo" src="images/partners/kaspersky-logo.png" alt="Kaspersky">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="partner">
+                        <a href="https://www.sophos.com" target="_blank" class="link" title="Sophos">                            
+                            <img class="logo" src="images/partners/sophos-logo.png" alt="Sophos">
+                            <div><i class="bi bi-arrow-right-circle"></i></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="footer-copy">
+                       &copy; <span id="year"></span> BITSHIELD SOLUTIONS LIMITED. All Rights Reserved.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Scripts -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
