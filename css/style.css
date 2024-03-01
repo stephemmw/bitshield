@@ -2,12 +2,30 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
 footer{
+  background-color:rgba(237, 237, 237, 0.405);  
   border-top: 1px #dadde1 solid;
+}
+footer .nav .nav-item .nav-link{
+  color: #000;
+  font-size: .95rem;
+}
+footer .nav .nav-item .nav-link:hover,
+footer .nav .nav-item .nav-link:focus{
+  color: #555555;
+  text-decoration:underline 2px #555555 solid;
+}
+footer .nav .nav-item .nav-link.list-header{
+ border-bottom: 2px #000 solid; 
+}
+footer .nav .nav-item .nav-link.list-header h6{
+  font-weight: 600;
 }
 footer .footer-copy{
   margin-bottom: .5rem;
+  font-size: .9rem;
   font-weight: 600;
   text-align: center;
+  border-top: 1px #dadde1 solid;
 }
 .flex-row{
   display: flex;
@@ -46,6 +64,21 @@ footer .footer-copy{
 .navbar .navbar-toggler:active{
   border-width: 2px;
 }
+
+.navbar .nav .dropdown-menu{
+  background-color:#313e4a;
+}
+.navbar .nav .dropdown-menu .dropdown-item{
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.navbar .nav .dropdown-menu .dropdown-item:hover{
+  color: #fff;
+  background-color:#313e4a;
+  border-bottom: 2px #fff solid;
+}
+
 .landing{
     width:100%;
     min-height: 100vh;
@@ -188,7 +221,7 @@ footer .footer-copy{
 }
   @media screen and (min-width: 1024px) {
     .navbar .nav .nav-item .nav-link{
-        font-size: 1.25rem;
+        font-size: 1.05rem;
     }
     .landing h1{
         font-size: 3.25rem;
