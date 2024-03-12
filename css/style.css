@@ -1,11 +1,11 @@
 body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
-    background-image: url('../images/cyber-vector.png');
+    background-image: url('../images/network.png');
     background-position: center;
     background-size: contain;
 }
 footer{
-  background-color:rgba(237, 237, 237, 1);  
+  background-color:rgb(255, 255, 255);  
   border-top: 1px #dadde1 solid;
 }
 footer .nav .nav-item .nav-link{
@@ -33,6 +33,11 @@ footer .footer-copy{
 .flex-row{
   display: flex;
   justify-content: center;
+}
+.flex-row .col-md-5{
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-bottom: 2rem;
 }
 .navbar{
   padding:5px;
@@ -91,7 +96,6 @@ footer .footer-copy{
     width:100%;
     min-height: 100vh;
     color: #000;
-    background-image: url('...');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -140,7 +144,7 @@ footer .footer-copy{
   min-height: 100vh;  
   padding-bottom: 2rem;
   z-index: -5;
-  background-color: #fff;
+  background-color: #ffffffe8;
 }
 .section header{
   width:100%;
@@ -155,13 +159,14 @@ footer .footer-copy{
   margin-bottom: 2rem;
   border-color: transparent;
   opacity: 100%;
-  border: 2px solid#ffd7d7;
-  box-shadow: 4px 4px 4px 4px #ffd7d7;
+  border: 2px rgb(185, 192, 255) solid;
+  box-shadow: 4px 4px 4px 4px rgb(185, 192, 255);
 }
 .section .card .card-header{  
   color: rgb(0, 0, 86);
   background-color: #fff;
   border: 0px solid;
+  text-align: center;
 }
 .section .card .card-header h2{
   font-size: 1.5rem;
@@ -175,21 +180,24 @@ footer .footer-copy{
   font-weight: 550;
 }
 .section .card .card-body,
-.section .card .card-footer{
-  
+.section .card .card-footer{  
   border: 0px solid;
-
 }
-
+.section .icon{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 60px;
+  height: 60px;
+}
 @keyframes pulseAnimation {
     0% {
-      color: #abb3ff;
+      color: #ff7b7b;
     }
     50% {
       color: #5068f2; /* Lighter shade for emphasis */
     }
     100% {
-      color: #abb3ff;
+      color: #ff7b7b;
     }
   }
   
@@ -205,7 +213,12 @@ footer .footer-copy{
     color: #dcdcdc;
     /* Consider adding a subtle hover animation here, e.g., transform: scale(1.05); */
   } 
-  
+  .services .card{
+    margin-bottom: 3rem;
+  }
+  .services .card .card-footer .btn{
+    font-weight: 600;
+  }
   .services, .partners{
     background-color:rgba(255, 255, 255, 0.895)
   }
@@ -227,15 +240,21 @@ footer .footer-copy{
   width: 100px;
   height: 100px;
   border-radius: 10px;
-  box-shadow: 2px 2px 2px 2px rgba(255, 122, 122, 0.766);
+  box-shadow: 2px 2px 4px 4px rgba(122, 144, 255, 0.766);
 }
 .partners .link,
 .clients .link{
   width: 100%;
   text-align: center;
 }
-.partners .link .bi{
-  font-size: 1.1rem;
+.partners .link .bi,
+.clients .link .bi{
+  font-size: 1.5rem;
+  color: rgb(255, 84, 84);
+}
+.partners .link .bi:hover,
+.clients .link .bi:hover{
+  color: rgb(84, 149, 255);
 }
   @media screen and (min-width: 1024px) {
     .navbar .nav .nav-item .nav-link{
