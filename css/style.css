@@ -96,7 +96,8 @@ footer .footer-copy{
     width:100%;
     min-height: 100vh;
     color: #000;
-    background-position: center;
+    background-image: url('../images/landing-image.png');
+    background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
     mix-blend-mode: normal;
@@ -214,6 +215,8 @@ footer .footer-copy{
     /* Consider adding a subtle hover animation here, e.g., transform: scale(1.05); */
   } 
   .services .card{
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 3rem;
   }
   .services .card .card-footer .btn{
