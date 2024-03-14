@@ -318,12 +318,12 @@ footer .footer-copy{
   font-weight: 600;
 }
 .contact-form .btn-danger{
-  background-color:  #5C5346;
-  border-color: #5C5346;
+  background-color:  #0047AB;
+  border-color: #0047AB;
 }
 .contact-form .btn-danger:hover{
-  background-color:  #837664;
-  border-color: #837664;
+  background-color:  #0047abd2;
+  border-color: #0047abd2;
 }
 .text-block{
   display: block;
