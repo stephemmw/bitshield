@@ -3,6 +3,7 @@ body{
     background-image: url('../images/network.png');
     background-position: center;
     background-size: contain;
+    background-repeat: repeat-y;
 }
 footer{
   background-color:rgba(255, 255, 255, 0.983);  
@@ -100,7 +101,61 @@ footer .footer-copy{
   color: #000;
   border-color: rgba(0, 0, 255, 0.80);
 }
-
+.section{
+  width: 100%;
+  min-height: 100vh;  
+  padding-bottom: 2rem;
+  z-index: -5;
+  background-color: #ffffffef;
+}
+.section header{
+  width:100%;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight:600;
+  text-align: center;
+  z-index: 5;
+}
+.section .card{
+  margin-bottom: 2rem;
+  border-color: transparent;
+  opacity: 100%;
+  border: 2px rgb(185, 192, 255) solid;
+  box-shadow: 4px 4px 4px 4px rgb(185, 192, 255);
+}
+.section .card .card-header{  
+  color: rgb(0, 0, 86);
+  background-color: #fff;
+  border: 0px solid;
+  text-align: center;
+}
+.section .card .card-header h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.section .card .card-body ul li{
+  font-weight: 1rem;
+}
+.section .card .card-body{
+  font-weight: 550;
+}
+.section .card .card-body,
+.section .card .card-footer{  
+  border: 0px solid;
+}
+.section .icon{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 60px;
+  height: 60px;
+}
+.section .page-header{
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+}
 .landing{
     width:100%;
     min-height: 100vh;
@@ -149,56 +204,7 @@ footer .footer-copy{
     text-align: center;
     cursor: default;
 }
-.section{
-  width: 100%;
-  min-height: 100vh;  
-  padding-bottom: 2rem;
-  z-index: -5;
-  background-color: #ffffffe4;
-}
-.section header{
-  width:100%;
-  padding-top: 4rem;
-  padding-bottom: 2rem;
-  font-size: 2rem;
-  font-weight:600;
-  text-align: center;
-  z-index: 5;
-}
-.section .card{
-  margin-bottom: 2rem;
-  border-color: transparent;
-  opacity: 100%;
-  border: 2px rgb(185, 192, 255) solid;
-  box-shadow: 4px 4px 4px 4px rgb(185, 192, 255);
-}
-.section .card .card-header{  
-  color: rgb(0, 0, 86);
-  background-color: #fff;
-  border: 0px solid;
-  text-align: center;
-}
-.section .card .card-header h2{
-  font-size: 1.5rem;
-  font-weight: 600;
-  text-align: center;
-}
-.section .card .card-body ul li{
-  font-weight: 1rem;
-}
-.section .card .card-body{
-  font-weight: 550;
-}
-.section .card .card-body,
-.section .card .card-footer{  
-  border: 0px solid;
-}
-.section .icon{
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 60px;
-  height: 60px;
-}
+
 @keyframes pulseAnimation {
     0% {
       color: #ff7b7b;
@@ -227,6 +233,9 @@ footer .footer-copy{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 3rem;
+  }
+  .services .card .card-body{
+    font-size: 1.10rem;
   }
   .services .card .card-footer .btn{
     font-weight: 600;
@@ -268,10 +277,6 @@ footer .footer-copy{
 .clients .link .bi:hover{
   color: rgb(84, 149, 255);
 }
-
-.contact .card{
-  margin-top: 4rem;
-}
 .contact .card .card-header{
   padding: 0px;
   color: #000;
@@ -308,6 +313,20 @@ footer .footer-copy{
 .contact-form .form-control::placeholder{
  font-weight: 600;
 }
+.text-block{
+  display: block;
+  font-size: 1.05rem;
+  font-weight: 500;
+  text-align: center;
+}
+.text-block span a{
+  color:#000d59;
+  font-weight: 600;
+  text-decoration: none;
+  }
+.text-block span a:hover{
+    color: #000d5993;
+}
 @media screen and (min-width: 1024px) {
     .navbar .nav .nav-item .nav-link{
         font-size: 1.05rem;
@@ -322,8 +341,18 @@ footer .footer-copy{
     .landing p.call-to-action{
       margin-top:15vh;      
     }
-    
+    .section .page-header{
+      font-size: 3.25rem;
+      text-align: center;
+    }
     .section .card{
       margin-bottom: 2rem;
     }
+    .text-block{
+      display: block;
+      font-size: 1.25rem;
+      font-weight: 500;
+      text-align: center;
+    }
+    
   }
