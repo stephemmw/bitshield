@@ -304,14 +304,26 @@ footer .footer-copy{
   font-weight: 600;
   text-align: center;
 }
-.modal .modal-content{
-  box-shadow: 2px 2px 8px 8px rgba(203, 212, 255, 0.766);
+.contact .modal .modal-dialog .modal-content{
+  background-color: #ffffff;
 }
 .contact-form .form-control{
   margin-bottom: 1rem;
 }
 .contact-form .form-control::placeholder{
  font-weight: 600;
+}
+.contact-form .btn{
+  min-width:25%;
+  font-weight: 600;
+}
+.contact-form .btn-danger{
+  background-color:  #5C5346;
+  border-color: #5C5346;
+}
+.contact-form .btn-danger:hover{
+  background-color:  #837664;
+  border-color: #837664;
 }
 .text-block{
   display: block;
