@@ -4,7 +4,7 @@ body{
     background-color: #700018;
 }
 footer{   
-  border-top: 2px #dadde193 solid;
+  border-top: 2px #dadde100 solid;
 }
 footer .nav .nav-item .nav-link{
   color: #fff;
@@ -14,6 +14,21 @@ footer .nav .nav-item .nav-link{
 footer .nav .nav-item .nav-link:hover,
 footer .nav .nav-item .nav-link:focus{
   text-decoration:underline 2px #fff solid;
+}
+.footer .nav .nav-item p.nav-link{
+  color: #fff;
+  font-size: .95rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.footer .nav .nav-item p.nav-link a.link{
+  color: #fff;
+  font-size: .95rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+.footer .nav .nav-item p.nav-link a.link:hover{
+  text-decoration: underline 2px #fff solid;
 }
 footer .nav .nav-item .nav-link.list-header{
  border-bottom: 2px #ffffff79 solid; 
