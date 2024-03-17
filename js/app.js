@@ -19,9 +19,9 @@ function changeBackground(){
     // 20 is an arbitrary number here, just to make you think if you need the prevScrollpos variable:
     if (currentScrollPos > 20) {
       // I am using 'display' instead of 'top':
-      document.getElementById("primary-nav").style.backgroundColor = "#700018";
+      document.getElementById("primary-nav").style.boxShadow = "2px 2px 8px 2px #8d0220";
     } else {
-      document.getElementById("primary-nav").style.backgroundColor = "#8D021F";
+      document.getElementById("primary-nav").style.boxShadow = "2px 2px 4px 4px #fff";
     }
   }
 }
