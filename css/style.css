@@ -1,29 +1,25 @@
 body{
+  color: #fff;
     font-family: 'fantasy';   
-    background-image: url('../images/network.png');
-    background-position: center;
-    background-size: contain;
-    background-repeat: repeat-y;
+    background-color: #700018;
 }
-footer{
-  background-color:rgba(255, 255, 255, 0.983);  
-  border-top: 1px #dadde1 solid;
+footer{   
+  border-top: 2px #dadde193 solid;
 }
 footer .nav .nav-item .nav-link{
-  color: #000;
+  color: #fff;
   font-size: .95rem;
   font-weight: 600;
 }
 footer .nav .nav-item .nav-link:hover,
 footer .nav .nav-item .nav-link:focus{
-  color: #555555;
-  text-decoration:underline 2px #555555 solid;
+  text-decoration:underline 2px #fff solid;
 }
 footer .nav .nav-item .nav-link.list-header{
- border-bottom: 2px #000 solid; 
+ border-bottom: 2px #ffffff79 solid; 
 }
 footer .nav .nav-item .nav-link.list-header:hover{
-  color: #000;  
+  color: #fff;  
   text-decoration: none;
  }
 footer .nav .nav-item .nav-link.list-header h6{
@@ -38,7 +34,8 @@ footer .footer-copy{
   font-size: .9rem;
   font-weight: 600;
   text-align: center;
-  border-top: 1px #dadde1e6 solid;
+  color: #fff;
+  border-top: 1px #a5a7aa5c solid;
 }
 .flex-row{
   display: flex;
@@ -51,26 +48,26 @@ footer .footer-copy{
 }
 .navbar{
   padding:5px;
-  background-color:#fff;
+  background-color: #8D021F;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, 0.45);
+  box-shadow: 2px 2px 2px 2px  #8d02207e;
 }
 .navbar .navbar-brand{
-  color: #000;
+  color: #fff;
   font-size: 1rem;
   font-weight: 600;
 }
 .navbar .nav .nav-item .nav-link{
-  color: #000;
+  color: #fff;
   font-size: 1.05rem;
   font-weight: 600;
   border-bottom: 2px solid transparent;
 }
 .navbar .nav .nav-item .nav-link:hover,
 .navbar .nav .nav-item .nav-link:active{
-   border-bottom-color: rgba(0, 0, 255 ,0.95);
+   border-bottom-color:  #fff;
 }
 .navbar .nav .nav-item .nav-link:active{
     border-color: #a2a2a2;
@@ -87,26 +84,30 @@ footer .footer-copy{
 .navbar .nav .dropdown-menu{
   padding-left: 5px;
   padding-right: 5px;
-  border: 2px solid rgba(0, 0, 255, 0.298);
+  background-color:  #8D021F;
 }
 .navbar .nav .dropdown-menu .dropdown-item{
-  color: #000;
+  color: #fff;
   font-weight: 600;
   font-size: 1rem;
   border: 1px solid transparent;
   border-radius: 10px;
+  background-color:  #8D021F;
   
 }
 .navbar .nav .dropdown-menu .dropdown-item:hover{
-  color: #000;
-  border-color: rgba(0, 0, 255, 0.80);
+  color: #fff;
+  border-color: #fff;
 }
 .section{
   width: 100%;
   min-height: 100vh;  
   padding-bottom: 2rem;
   z-index: -5;
-  background-color: #ffffffef;
+  background-color: #8D021F;
+}
+.section .icon{
+  color: #fff;
 }
 .section header{
   width:100%;
@@ -114,31 +115,34 @@ footer .footer-copy{
   padding-bottom: 2rem;
   font-size: 2rem;
   font-weight:600;
+  color: #fff;
   text-align: center;
   z-index: 5;
 }
 .section .card{
   margin-bottom: 2rem;
+  background-color: #8D021F;
   border-color: transparent;
   opacity: 100%;
-  border: 2px rgb(185, 192, 255) solid;
-  box-shadow: 4px 4px 4px 4px rgb(185, 192, 255);
+  border: 2px #8D021F solid;
+  box-shadow: 4px 4px 4px 4px #dededeb2;
 }
 .section .card .card-header{  
-  color: rgb(0, 0, 86);
-  background-color: #fff;
+  color: #fff;
+  background-color: #8D021F;
   border: 0px solid;
   text-align: center;
 }
 .section .card .card-header h2{
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
 }
 .section .card .card-body ul li{
   font-weight: 1rem;
 }
 .section .card .card-body{
+  color: #fff;
   font-weight: 550;
 }
 .section .card .card-body,
@@ -159,8 +163,8 @@ footer .footer-copy{
 .landing{
     width:100%;
     min-height: 100vh;
-    color: #000;
-    background-image: url('../images/landing-image.png');
+    color: #fff;
+    background-image: url('../images/landing-image2.png');
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,28 +175,28 @@ footer .footer-copy{
 .landing h1{
     margin-top: 15vh;
     font-size: 2.25rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.25rem;
     letter-spacing: 0.05rem;
 }
 .landing p{
-    margin-top:10vh;
+    margin-top: 4vh;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 1.25rem;
     letter-spacing: 0.01rem;
 }
 .landing p.call-to-action{
-  margin-top:10vh;
-  font-size: 1.1rem;
-  font-weight: 600;
+  margin-top: 4vh;
+  font-size: 1.15rem;
+  font-weight: 700;
   line-height: 1.15rem;
   letter-spacing: 0.01rem;
-  text-shadow: #232e34;
+  text-shadow: #000d59;
   
 }
 .landing .btn{
-    margin-top: 1vh;
+    margin-top: .5vh;
     padding: 0px;
     font-weight: 600;
     width: 5rem;
@@ -207,45 +211,48 @@ footer .footer-copy{
 
 @keyframes pulseAnimation {
     0% {
-      color: #ff7b7b;
+      color: #FFF;
     }
     50% {
-      color: #5068f2; /* Lighter shade for emphasis */
+      color:#006ec2; /* Lighter shade for emphasis */
     }
     100% {
-      color: #ff7b7b;
+      color: #ffF;
     }
   }
   
   .landing .btn .bi {
     font-size: 3.25rem;
     cursor: pointer;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-shadow: 0 0 2px #8D021F; /* Subtle shadow */
     animation: pulseAnimation 2s ease-in-out infinite;
   }
   
   .landing .btn .bi:hover {
     animation-play-state: paused;
-    color: #dcdcdc;
+    color: #ad465d;
     /* Consider adding a subtle hover animation here, e.g., transform: scale(1.05); */
   } 
   .services .card{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 3rem;
+    box-shadow: 2px 2px 6px 6px #e1e1e192;
   }
   .services .card .card-body{
     font-size: 1.10rem;
   }
   .services .card .card-footer .btn{
     font-weight: 600;
+    color: #fff;
+    border-color: #23297A;
+    background-color: #23297A;
   }
-  .services, .partners{
-    background-color:rgba(255, 255, 255, 0.895)
+  .services .card .card-footer .btn:hover{
+    border-color: #3841ba;
+    background-color: #3841ba;
   }
-  .clients{
-    background-color:rgba(255, 255, 255, 0.895)
-  }
+  
 .clients, .partners{
   min-height: 50vh;
 }
@@ -260,35 +267,45 @@ footer .footer-copy{
 .clients .logo{
   width: 100px;
   height: 100px;
+  margin-bottom: .5rem;
   border-radius: 10px;
-  box-shadow: 2px 2px 4px 4px rgba(122, 144, 255, 0.766);
+  box-shadow: 2px 2px 6px 6px #e1e1e192;
+}
+
+.partners .logo:hover,
+.clients .logo:hover{
+  box-shadow: 2px 2px 6px 6px #e1e1e1e3;
 }
 .partners .link,
 .clients .link{
   width: 100%;
+  color: rgba(255, 255, 255, 0.573);
   text-align: center;
 }
 .partners .link .bi,
 .clients .link .bi{
   font-size: 1.5rem;
-  color: rgb(255, 84, 84);
+  color: #fff
 }
 .partners .link .bi:hover,
 .clients .link .bi:hover{
-  color: rgb(84, 149, 255);
-}
-.contact .card .card-header{
-  padding: 0px;
-  color: #000;
-  font-size: 2rem;
+  color: #dcdcdc;
 }
 .contact .nav .nav-item .nav-link{
-  color: #000;
+  color: #fff;
   font-size: 1.25rem;
   font-weight: 600;
 }
 .contact .nav .nav-item .nav-link:hover> span{
   border-bottom: 2px solid;
+}
+.contact .card{
+  box-shadow: 2px 2px 6px 6px #e1e1e192;;
+}
+.contact .card .card-header{
+  padding: 0px;
+  color: #fff;
+  font-size: 2rem;
 }
 .contact .card .card-footer{
   text-align: center;
@@ -297,18 +314,31 @@ footer .footer-copy{
   font-size: 1.05rem;
   font-weight: 600;
   text-align: center;
+  color: #fff;
+  background-color: #000d59;
+  border-color: #000d59;
+}
+.contact .card .card-footer .btn:hover{
+  background-color:#3841ba;
+  border-color: #3841ba;
 }
 .modal .modal-dialog .modal-content .modal-header{
   width: 100%;
+  color: #fff;
   font-size: 1.15rem;
   font-weight: 600;
   text-align: center;
 }
 .contact .modal .modal-dialog .modal-content{
-  background-color: #ffffff;
+  background-color: #8D021F;
 }
 .contact-form .form-control{
   margin-bottom: 1rem;
+  background-color: #f2d6a7;
+}
+.contact-form label{
+  color: #fff;
+  cursor: pointer;
 }
 .contact-form .form-control::placeholder{
  font-weight: 600;
@@ -317,13 +347,23 @@ footer .footer-copy{
   min-width:25%;
   font-weight: 600;
 }
-.contact-form .btn-danger{
-  background-color:  #0047AB;
-  border-color: #0047AB;
+.contact-form .btn-cancel{
+  color: #fff;
+  background-color: #000d59;
+  border-color: #000d59;
 }
-.contact-form .btn-danger:hover{
-  background-color:  #0047abd2;
-  border-color: #0047abd2;
+.contact-form .btn-cancel:hover{
+  background-color:#3841ba;
+  border-color: #3841ba;
+}
+.contact-form .btn-save{
+  color: #000;
+  background-color:  #b29a71;
+  border-color: #b29a71;
+}
+.contact-form .btn-save:hover{
+  background-color:  #d7ba89cb;
+  border-color: #D7BA89;
 }
 .text-block{
   display: block;
@@ -332,12 +372,12 @@ footer .footer-copy{
   text-align: center;
 }
 .text-block span a{
-  color:#000d59;
+  color: #eaedff;
   font-weight: 600;
   text-decoration: none;
   }
 .text-block span a:hover{
-    color: #000d5993;
+    color: #8c99e0;
 }
 @media screen and (min-width: 1024px) {
     .navbar .nav .nav-item .nav-link{
