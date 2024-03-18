@@ -182,7 +182,7 @@ footer .footer-copy{
 }
 .landing{
     width:100%;
-    min-height: 100vh;
+    height: 100vh;
     color: #000;
     background-image: url('../images/landing-image.png');
     background-position: bottom;
@@ -193,7 +193,7 @@ footer .footer-copy{
 }
 
 .landing h1{
-    margin-top: 15vh;
+    margin-top: 10vh;
     font-size: 2.25rem;
     font-weight: 700;
 }
