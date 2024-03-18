@@ -93,11 +93,13 @@ footer .footer-copy{
 }
 .navbar .navbar-toggler{
   border-width: 2px;
-  border-color: #fff;
-  color: #fff;
+  color: #000;
+  border: 2px #dcdcdc solid;
 }
-.navbar .navbar-toggler:active{
-  border-width: 2px;
+.navbar .navbar-toggler:active,
+.navbar .navbar-toggler:hover{
+  border-width: 2px;  
+  border: 2px #aeaeae solid;
 }
 
 .navbar .nav .dropdown-menu{
