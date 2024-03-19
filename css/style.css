@@ -11,6 +11,9 @@ footer{
   background-color: rgba(255, 255, 255, 0.95);
   border-top: 2px #d1d1d19b solid;
 }
+footer .col-12{
+  border-bottom: 2px #dcdcdc solid;
+}
 footer .nav .nav-item .nav-link{
   color: #000;
   font-size: .95rem;
@@ -92,14 +95,13 @@ footer .footer-copy{
     border-color: #a2a2a2;
 }
 .navbar .navbar-toggler{
-  border-width: 2px;
-  color: #000;
   border: 2px #dcdcdc solid;
 }
 .navbar .navbar-toggler:active,
 .navbar .navbar-toggler:hover{
   border-width: 2px;  
   border: 2px #aeaeae solid;
+  box-shadow: 0px 0px 0px 0px #fff;
 }
 
 .navbar .nav .dropdown-menu{
@@ -132,7 +134,7 @@ footer .footer-copy{
 }
 .section header{
   width:100%;
-  padding-top: 4rem;
+  padding-top: 1.5rem;
   padding-bottom: 2rem;
   font-size: 2rem;
   font-weight:600;
