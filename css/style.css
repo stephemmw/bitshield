@@ -262,8 +262,7 @@ footer .footer-copy{
   .services .card .card-header{   
     line-height: 1.15rem;
     font-size: 1.25rem;
-    font-weight:600; 
-    text-decoration: underline #23297A 4px;
+    font-weight:600;
   }
   .services .card .card-body{
     font-size: 1.10rem;
@@ -278,7 +277,11 @@ footer .footer-copy{
     border-color: #3841ba;
     background-color: #3841ba;
   }
-  
+.services header,
+.clients header,
+.partners header{
+  margin-top: 2.25rem;
+}
 .clients, .partners{
   min-height: 50vh;
 }
