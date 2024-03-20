@@ -177,11 +177,6 @@ footer .footer-copy{
   width: 60px;
   height: 60px;
 }
-.section .page-header{
-  font-size: 2rem;
-  font-weight: 600;
-  text-align: center;
-}
 .landing{
     width:100%;
     height: 100vh;
@@ -411,6 +406,13 @@ footer .footer-copy{
 .text-block span a:hover{
     color: #8c99e0;
 }
+.section .page-header{
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @media screen and (min-width: 1024px) {
     .navbar .nav .nav-item .nav-link{
         font-size: 1.05rem;
