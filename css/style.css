@@ -74,6 +74,14 @@ footer .footer-copy{
   border: 2px solid;  
 }
 
+.page-header{
+  width: 100%;
+  padding-top: 5vh;
+  padding-bottom: 2.5vh;
+  font-size: 3rem;
+  font-weight: 600;
+  text-align: center;
+}
 .section{
   width: 100%;
   min-height: 100vh;  
@@ -89,10 +97,6 @@ footer .footer-copy{
   font-weight:600;
   text-align: center;  
   text-decoration: underline 2px;
-}
-
-.section .page-header{
-  text-decoration:underline 4px;
 }
 .section .card{
   margin-bottom: 2rem;
@@ -166,7 +170,7 @@ footer .footer-copy{
   .landing .btn:hover,
   .landing .btn:active,
   .landing .btn:focus{
-    font-size: 1.75rem;
+    font-size: 1.6rem;
   }
   .services .card{
     margin-left: 5px;
@@ -177,7 +181,7 @@ footer .footer-copy{
     line-height: 1.15rem;
     font-size: 1.25rem;
     font-weight:600;
-    text-decoration: underline 2px;
+    text-decoration: underline 3px;
   }
   .services .card .card-body{
     font-size: 1.10rem;
