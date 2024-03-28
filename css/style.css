@@ -230,7 +230,7 @@ footer .footer-copy{
   font-weight: 600;
 }
 .contact .nav .nav-item .nav-link{
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .contact .nav .nav-item .nav-link:hover> span{
@@ -301,6 +301,11 @@ footer .footer-copy{
     }
     .section .card{
       margin-bottom: 2rem;
+    }
+    
+    .contact .nav .nav-item .nav-link{
+      font-size: 1.25rem;
+      font-weight: 600;
     }
     .text-block{
       display: block;
