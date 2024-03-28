@@ -273,7 +273,7 @@ footer .footer-copy{
   margin-bottom: 2rem;
   font-size: 1.15rem;
   font-weight: 600;
-  text-justify:distribute-all-lines;
+  text-align:justify;
 }
 .text-block span a{
   font-weight: 600;
