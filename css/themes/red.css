@@ -2,58 +2,71 @@ body{
   color: #fff;
 }
 footer{   
-  background-color: rgba(255, 255, 255, 0.95);
-  border-top: 2px #d1d1d19b solid;
+  background-color: #8d0217;
+  border-top: 2px #ffffffe3 solid;
 }
 footer .col-6{
-  border-bottom: 2px #dcdcdc solid;
+  border-bottom: 2px #ffffffe3 solid;
 }
 footer .nav .nav-item .nav-link{
-  color: #000;
+  color: #fff;
 }
   footer .nav .nav-item .nav-link:hover,
   footer .nav .nav-item .nav-link:focus{
-    text-decoration:underline 2px #000 solid;
+    text-decoration:underline 2px #fff solid;
   }
   .footer .nav .nav-item p.nav-link{
-    color: #000;
+    color: #fff;
 }
   .footer .nav .nav-item p.nav-link a.link{
-    color: #000;
+    color: #fff;
   }
   .footer .nav .nav-item p.nav-link a.link:hover{
-    text-decoration: underline 2px #000 solid;
+    text-decoration: underline 2px #dcdcdc solid;
   }
   footer .nav .nav-item .nav-link.list-header{
-   border-bottom: 2px #000 solid; 
+   border-bottom: 2px #fff solid; 
   }
   footer .nav .nav-item .nav-link.list-header:hover{
-    color: #000;
+    color: #dcdcdc;
    }
  
   footer .footer-copy{
-    color: #000;
-    border-top: 1px #808080 solid;
+    color: #fff;
+    border-top: 1px #ffffffe3 solid;
   }
 
-  .primary-nav.navbar{
+  .theme-btn#default-theme{
+    border-color: #dcdcdc;
     background-color: #fff;
   }
+  .theme-btn#red-theme{
+    border-color: #8d0217;
+    background-color: #8d0217;
+  }
+  .theme-btn#blue-theme{
+    border-color: #0c0f36;
+    background-color: #0c0f36;
+  }
+  
+  .primary-nav.navbar{
+    background-color: #8d0217;
+  }
   .primary-nav.navbar .navbar-brand{
-    color: #000;
+    color: #fff;
   }
   .primary-nav.navbar .navbar-brand:hover,
   .primary-nav.navbar .navbar-brand:active,
   .primary-nav.navbar .navbar-brand:focus{
-    color: #353535;
+    color: #fff;
   }
   .primary-nav.navbar .nav .nav-item .nav-link{
-    color: #000;
+    color: #fff;
     border-bottom-color: transparent;
   }
   .primary-nav.navbar .nav .nav-item .nav-link:hover,
   .primary-nav.navbar .nav .nav-item .nav-link:active{
-     border-color: #000;
+     border-color: #fff;
   }
   .primary-nav.navbar .navbar-toggler{
     border: 2px #fff solid;
@@ -64,80 +77,61 @@ footer .nav .nav-item .nav-link{
   }
   
   .primary-nav.navbar .nav .dropdown-menu{
-    background-color:  #fff;
-    box-shadow: 2px 2px 8px 2px #000
+    background-color:  #8d0217;
+    box-shadow: 2px 2px 8px 2px #8d0217;
   }
   .primary-nav.navbar .nav .dropdown-menu .dropdown-item{
-    color: #000;
+    color: #ffff;
     border-radius: 10px;
-    background-color:  #fff;
+    background-color:  #8d0217;
     border-color: transparent;    
   }
   .primary-nav.navbar .nav .dropdown-menu .dropdown-item:hover{
-    background-color: #fff;
-    border-color: #000;
+    background-color: #8d0217;
+    border-color: #fff;
   }
 
-  .theme-btn#default-theme{
-    border-color: #fff;
-    background-color: #fff;
-  }
-  .theme-btn#red-theme{
-    border-color: #8d0217;
-    background-color: #8d0217;
-  }
-  .theme-btn#blue-theme{
-    border-color: #23297a;
-    background-color: #23297a;
-  }
-  
   .page-header{
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: #8d0217;
   }
 
   .section{
-    background-color: #fffffff3;
+    background-color: #fffffff2;
   }
   .section .icon{
-    color: #fff;
+    color: #000;
   }
   .section header{
-    color: #000;
+    color: #fff;
+    background-color:#8d0217;
     text-align: center;
-    text-decoration-color: #000;
+    text-decoration-color: #fff;
   }
-  .section .card{
-    background-color: #ffffffc1;
-    border-color: transparent;
-    opacity: 100%;
-  }
-  .section .card .card-header{  
-    color: #000;
-    background-color: #fff;
-  }
-  .section .card .card-body{
-    color: #000;
-  }
+  
   .landing{
       color: #000;
-      background-color: #ffffffed;
-  }
-  .call-to-action  .btn{
-    color: #fff;
+      background-color: #ffffffe3;
   }
   .landing .btn{
-    color: #000;
-    border-color: #000;
+    color: #fff;
+    border-color: #0c0f36;
+    background-color: #0c0f36;
   }
 
   .services .card{
-    box-shadow: 2px 2px 8px 2px #6a7ad9;
+    background-color:#8d0217;
+    border: 2px #ababab solid;
   }    
+  .services .card .card-header,
+  .services .card .card-body{
+    color: #fff;
+    background-color:#8d0217;
+  }
   .services .card .card-footer .btn{
     color: #fff;
-    border-color: #23297A;
-    background-color: #23297A;
+    border-color: #0c0f36;
+    background-color: #0c0f36;
   }
   .services .card .card-footer .btn:hover{
     border-color: #3841ba;
@@ -153,23 +147,19 @@ footer .nav .nav-item .nav-link{
   .clients .logo:hover{
     box-shadow: 2px 2px 8px 2px #404e9e;
   }
-  .partners .link,
-  .clients .link{
-    color: #000;
-  }
   .partners .link .bi,
   .clients .link .bi{
-    color: #000d59;
+    color: #0c0f36;
   }
   .partners .link .bi:hover,
   .clients .link .bi:hover{
-    color: #000d5975;
+    color: #b29a71;
   }
   .contact .nav .nav-item .nav-link{
-    color: #000;
+    color: #fff;
   }
   .contact .card{
-    background-color: #ffffffe3;
+    background-color: #8d0217;
     box-shadow: 2px 2px 6px 6px #6a7ad9;
   }
   .contact .card .card-header{
@@ -180,29 +170,30 @@ footer .nav .nav-item .nav-link{
   }
   .contact .card .card-footer .btn{
     color: #fff;
-    background-color: #000d59;
-    border-color: #000d59;
+    background-color: #0c0f36;
+    border-color: #0c0f36;
   }
   .contact .card .card-footer .btn:hover{
     background-color:#3841ba;
     border-color: #3841ba;
   }
   .modal .modal-dialog .modal-content .modal-header{
-    color: #000;
+    color: #fff;
+    background-color: #8d0217;
   }
-  .contact .modal .modal-dialog .modal-content{
-    background-color: #fff;
+  .modal .modal-dialog .modal-content{
+    background-color: #8d0217;
   }
   .contact-form .form-control{
     background-color: #ffffff;
   }
   .contact-form label{
-    color: #000;
+    color: #fff;
   }
   .contact-form .btn-cancel{
     color: #fff;
-    background-color: #000d59;
-    border-color: #000d59;
+    background-color: #0c0f36;
+    border-color: #0c0f36;
   }
   .contact-form .btn-cancel:hover{
     background-color:#28309d;
@@ -221,12 +212,8 @@ footer .nav .nav-item .nav-link{
     color: #000;
   }
 .text-block span a{
-  color: #000;
+  color: #090c33;
 }
 .text-block span a:hover{
    color: #8c99e0;
-}
-
-.page-header{
-  text-decoration-color: #000;
 }

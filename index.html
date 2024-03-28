@@ -20,7 +20,7 @@
         <link rel="stylesheet" href="http://locallibrary.docs/cdn/bootstrap/icons/font/bootstrap-icons.min.css">
 
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/themes/default.css">
+        <link rel="stylesheet" id="theme" href="css/themes/default.css">
     </head>
     <body>
         <nav class="navbar primary-nav navbar-expand-lg sticky-top" id="primary-nav"> 
@@ -60,6 +60,17 @@
                         <a class="nav-link" href="contact.html" title="Get in touch">Contact</a>
                     </li>
                 </ul>
+                <ul class="nav ms-auto">
+                    <li class="nav-item">                    
+                        <button class="btn theme-btn" id="default-theme" title="Default theme"></button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn theme-btn" id="red-theme" title="Red theme"></button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn theme-btn" id="blue-theme" title="Blue theme"></button>
+                    </li>
+                </ul>
             </div>
             
         </nav>
@@ -89,7 +100,7 @@
                             <div class="col-12 col-md-5">
                                 <div class="card">
                                     <div class="card-header">
-                                        <img class="icon" src="images/icons/telecommunication.png" alt="">
+                                        <img class="icon" id="img-telecomms" src="images/icons/telecommunication.png" alt="">
                                         <h2>IT Infrastructure</h2>
                                     </div>
                                     <div class="card-body">
@@ -97,7 +108,7 @@
                                             and virtualized solutions to meet your specific needs.</p>
                                     </div>
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-warning" title="Learn More">Learn More</a>
+                                        <a href="#" class="btn " title="Learn More">Learn More</a>
                                     </div>
                                 </div>
                             </div> 
@@ -105,7 +116,7 @@
                             <div class="col-12 col-md-5">
                                 <div class="card">
                                     <div class="card-header">
-                                        <img class="icon" src="images/icons/cybersecurity.png" alt="">
+                                        <img class="icon" id="img-cyber" src="images/icons/cybersecurity.png" alt="">
                                         <h2>Cyber Security</h2>
                                     </div>
                                     <div class="card-body">
@@ -113,14 +124,14 @@
                                             and data from evolving threats.</p>
                                     </div>
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-warning" title="Learn More">Learn More</a>
+                                        <a href="#" class="btn " title="Learn More">Learn More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-5">
                                 <div class="card">
                                     <div class="card-header">
-                                        <img class="icon" src="images/icons/data-management.png" alt="">
+                                        <img class="icon" id="img-data" src="images/icons/data-management.png" alt="">
                                         <h2>Data Backup and Recovery</h2>
                                     </div>
                                     <div class="card-body">
@@ -128,7 +139,7 @@
                                             and access your information seamlessly, whether on-premises or in the cloud.</p>                                    
                                     </div>
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-warning" title="Learn More">Learn More</a>
+                                        <a href="#" class="btn " title="Learn More">Learn More</a>
                                     </div>
                                 </div>
                             </div>
@@ -136,28 +147,28 @@
                             <div class="col-12 col-md-5">
                                 <div class="card">
                                     <div class="card-header">
-                                        <img class="icon" src="images/icons/custom.png" alt="">
+                                        <img class="icon" id="img-software" src="images/icons/custom.png" alt="">
                                         <h2>Custom Software Solutions</h2>
                                     </div>
                                     <div class="card-body">
                                         <p>Our Custom Software development services build applications that automate tasks and improve workflow for increased efficiency.</p>
                                     </div>
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-warning" title="Learn More">Learn More</a>
+                                        <a href="#" class="btn " title="Learn More">Learn More</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 col-md-5">
                                 <div class="card">
                                     <div class="card-header">
-                                        <img class="icon" src="images/icons/training.png" alt="">
+                                        <img class="icon" id="img-training" src="images/icons/training.png" alt="">
                                         <h2>Custom Training Services</h2>
                                     </div>
                                     <div class="card-body">
                                         <p>Our Custom Training services will equip your staff with the skills they need to be effective.</p>
                                     </div>
                                     <div class="card-footer">
-                                        <a href="#" class="btn btn-warning" title="Learn More">Learn More</a>
+                                        <a href="#" class="btn " title="Learn More">Learn More</a>
                                     </div>
                                 </div>
                             </div>

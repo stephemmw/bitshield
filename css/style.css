@@ -46,9 +46,6 @@ footer .footer-copy{
 }
 .primary-nav.navbar{
   padding:5px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 .primary-nav.navbar .navbar-brand{
   font-size: 1rem;
@@ -73,6 +70,12 @@ footer .footer-copy{
   font-size: 1rem;
   border: 2px solid;  
 }
+.theme-btn{
+  width: 30px;
+  height:30px;
+  margin-right: 5px;
+  border: 2px solid;
+}
 
 .page-header{
   width: 100%;
@@ -85,18 +88,20 @@ footer .footer-copy{
 .section{
   width: 100%;
   min-height: 100vh;  
+  padding-top: 2.5rem;
   padding-bottom: 2rem;
   z-index: -5;
 }
 .section header{
   width:100%;
   z-index: 5;
-  padding-top: 2.5rem;
-  padding-bottom: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  margin-bottom: 2rem;
   font-size: 2rem;
   font-weight:600;
   text-align: center;  
-  text-decoration: underline 2px;
+  text-decoration: underline 3px;
 }
 .section .card{
   margin-bottom: 2rem;
@@ -187,7 +192,7 @@ footer .footer-copy{
     font-size: 1.10rem;
   }
   .services .card .card-footer{
-    text-align: center;
+    text-align: left;
   }
   .services .card .card-footer .btn{
     font-weight: 600;
@@ -221,7 +226,8 @@ footer .footer-copy{
 }
 .partners .link .bi,
 .clients .link .bi{
-  font-size: 1.5rem;
+  font-size: 2.25rem;
+  font-weight: 600;
 }
 .contact .nav .nav-item .nav-link{
   font-size: 1.25rem;
@@ -264,9 +270,10 @@ footer .footer-copy{
 }
 .text-block{
   display: block;
-  font-size: 1.05rem;
-  font-weight: 500;
-  text-align: justify;
+  margin-bottom: 2rem;
+  font-size: 1.15rem;
+  font-weight: 600;
+  text-justify:distribute-all-lines;
 }
 .text-block span a{
   font-weight: 600;
