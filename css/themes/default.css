@@ -105,11 +105,10 @@ footer .nav .nav-item .nav-link{
   .section header{
     color: #000;
     text-align: center;
-    text-decoration-color: #000;
+    background-color: #dcdcdc;
   }
   .section .card{
     background-color: #ffffffc1;
-    border-color: transparent;
     opacity: 100%;
   }
   .section .card .card-header{  
@@ -131,15 +130,15 @@ footer .nav .nav-item .nav-link{
     border-color: #000;
   }
 
-  .services .card{
+  .landing-services .card{
     box-shadow: 2px 2px 8px 2px #6a7ad9;
   }    
-  .services .card .card-footer .btn{
+  .landing-services .card .card-footer .btn{
     color: #fff;
     border-color: #23297A;
     background-color: #23297A;
   }
-  .services .card .card-footer .btn:hover{
+  .landing-services .card .card-footer .btn:hover{
     border-color: #3841ba;
     background-color: #3841ba;
   }
@@ -229,4 +228,50 @@ footer .nav .nav-item .nav-link{
 
 .page-header{
   text-decoration-color: #000;
+}
+
+.services .card{  
+  box-shadow: 2px 2px 4px 4px #000;
+}
+
+.training .card{
+  box-shadow: 2px 2px 4px 2px #b4b4b4;
+}
+.training .card .card-header{
+  background-color: #dcdcdc;
+}
+.training .card .card-footer .btn-request{
+  color: #fff;
+  border-color: #000d59;
+  background-color: #000d59;
+}
+.training .card .card-footer .btn-request:hover{
+  border-color: #3841ba;
+  background-color: #3841ba;
+}
+.training .reason{
+  box-shadow: none;
+}
+.training .reason .card-header{
+  background-color: #dcdcdc;
+}
+
+.dbr .card .card-header,
+.csec .card .card-header,
+.infra .card .card-header,
+.soft .card .card-header{
+  background-color: #dcdcdc;
+}
+.dbr .btn-demo,
+.csec .btn-demo,
+.infra .btn-demo,
+.soft .btn-demo{
+  color:#000;
+  border-color: #000;
+}
+.dbr .btn-demo:hover,
+.csec .btn-demo:hover,
+.infra .btn-demo:hover,
+.soft .btn-demo:hover{
+  border-color: #6e6e6e;
 }

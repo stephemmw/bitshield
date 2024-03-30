@@ -107,7 +107,7 @@ body{
       color: #fff;
       background-color:#0c0f36;
       text-align: center;
-      text-decoration-color: #fff;
+      text-decoration-color: transparent;
     }
     
     .landing{
@@ -120,21 +120,21 @@ body{
       background-color: #8d0217;
     }
   
-    .services .card{
+    .landing-services .card{
       background-color:#0c0f36;
       border: 2px #ababab solid;
     }    
-    .services .card .card-header,
-    .services .card .card-body{
+    .landing-services .card .card-header,
+    .landing-services .card .card-body{
       color: #fff;
       background-color:#0c0f36;
     }
-    .services .card .card-footer .btn{
+    .landing-services .card .card-footer .btn{
       color: #fff;
       border-color: #8d0217;
       background-color: #8d0217;
     }
-    .services .card .card-footer .btn:hover{
+    .landing-services .card .card-footer .btn:hover{
       border-color: #3841ba;
       background-color: #3841ba;
     }
@@ -225,3 +225,62 @@ body{
   .page-header{
     text-decoration-color: #000;
   }
+
+  
+.training .card{
+  background-color: #fff;
+  box-shadow: 2px 2px 4px 2px #0c0f36;
+}
+.training .card-header{
+  color: #fff;
+  background-color: #0c0f36;
+}
+.training .card-body{
+  color: #000;
+}
+.training .card-footer .btn-request{
+  color: #fff;
+  border-color: #8d0217;
+  background-color: #8d0217;
+}
+.training .card-footer .btn-request:hover{
+  border-color: #3841ba;
+  background-color: #3841ba;
+}
+
+.training .reason{
+  background: #fff;
+  box-shadow: none;
+  border-color: #fff;
+}
+.training .reason .card-header{
+  color: #fff;
+  background-color: #0c0f36;
+}
+.training .reason .card-body{
+  color: #000;
+}
+
+.dbr .card .card-header,
+.csec .card .card-header,
+.infra .card .card-header,
+.soft .card .card-header{
+  color: #fff;
+  background-color: #0c0f36;
+}
+.dbr .btn-demo,
+.csec .btn-demo,
+.infra .btn-demo,
+.soft .btn-demo{
+  color:#fff;
+  border-color: #8d0217;
+  background-color: #8d0217;
+}
+.dbr .btn-demo:hover,
+.csec .btn-demo:hover,
+.infa .btn-demo:hover,
+.soft .btn-demo:hover{
+  color: #fff;
+  border-color: #3841ba;
+  background-color: #3841ba;
+}
