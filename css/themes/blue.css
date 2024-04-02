@@ -2,7 +2,7 @@ body{
     color: #fff;
   }
   footer{   
-    background-color: #0c0f36;
+    background-color: #0c0f46;
     border-top: 2px #ffffffe3 solid;
   }
   footer .col-6{
@@ -41,16 +41,16 @@ body{
       background-color: #fff;
     }
     .theme-btn#red-theme{
-      border-color: #8d0217;
-      background-color: #8d0217;
+      border-color: #BE0228;
+      background-color: #BE0228;
     }
     .theme-btn#blue-theme{
-      border-color: #0c0f36;
-      background-color: #0c0f36;
+      border-color: #0c0f46;
+      background-color: #0c0f46;
     }
     
     .primary-nav.navbar{
-      background-color: #0c0f36;
+      background-color: #0C0F46;
       border-bottom: transparent;
     }
     .primary-nav.navbar .navbar-brand{
@@ -78,23 +78,23 @@ body{
     }
     
     .primary-nav.navbar .nav .dropdown-menu{
-      background-color:  #0c0f36;
-      box-shadow: 2px 2px 8px 2px #0c0f36;
+      background-color:  #0c0f46;
+      border-color: #fff;
     }
     .primary-nav.navbar .nav .dropdown-menu .dropdown-item{
       color: #ffff;
       border-radius: 10px;
-      background-color:  #0c0f36;
+      background-color:  #0c0f46;
       border-color: transparent;    
     }
     .primary-nav.navbar .nav .dropdown-menu .dropdown-item:hover{
-      background-color: #0c0f36;
+      background-color: #0c0f46;
       border-color: #fff;
     }
   
     .page-header{
       color: #fff;
-      background-color: #0c0f36;
+      background-color: #0c0f46;
     }
   
     .section{
@@ -105,34 +105,33 @@ body{
     }
     .section header{
       color: #fff;
-      background-color:#0c0f36;
+      background-color:#0c0f46;
       text-align: center;
       text-decoration-color: transparent;
     }
     
     .landing{
-        color: #000;
-        background-color: #ffffffe3;
+        color: #fff;
     }
     .landing .btn{
       color: #fff;
-      border-color: #8d0217;
-      background-color: #8d0217;
+      border-color: #fff;
+      background-color: #BE0228;
     }
   
     .landing-services .card{
-      background-color:#0c0f36;
+      background-color:#0c0f46;
       border: 2px #ababab solid;
     }    
     .landing-services .card .card-header,
     .landing-services .card .card-body{
       color: #fff;
-      background-color:#0c0f36;
+      background-color:#0c0f46;
     }
     .landing-services .card .card-footer .btn{
       color: #fff;
-      border-color: #8d0217;
-      background-color: #8d0217;
+      border-color: #BE0228;
+      background-color: #BE0228;
     }
     .landing-services .card .card-footer .btn:hover{
       border-color: #3841ba;
@@ -150,7 +149,7 @@ body{
     }
     .partners .link .bi,
     .clients .link .bi{
-      color: #8d0217;
+      color: #BE0228;
     }
     .partners .link .bi:hover,
     .clients .link .bi:hover{
@@ -160,7 +159,7 @@ body{
       color: #fff;
     }
     .contact .card{
-      background-color: #0c0f36;
+      background-color: #0c0f46;
       box-shadow: 2px 2px 6px 6px #6a7ad9;
     }
     .contact .card .card-header{
@@ -171,8 +170,8 @@ body{
     }
     .contact .card .card-footer .btn{
       color: #fff;
-      background-color: #8d0217;
-      border-color: #8d0217;
+      background-color: #BE0228;
+      border-color: #BE0228;
     }
     .contact .card .card-footer .btn:hover{
       background-color:#3841ba;
@@ -180,13 +179,13 @@ body{
     }
     .modal .modal-dialog .modal-content .modal-header{
       color: #fff;
-      background-color: #0c0f36;
+      background-color: #0c0f46;
     }
     .modal .modal-dialog .modal-content .modal-body{
-      background-color: #0c0f36;
+      background-color: #0c0f46;
     }
     .contact-form{
-        background-color: #0c0f36;
+        background-color: #0c0f46;
     }
     .contact-form .form-control{
       background-color: #fff;
@@ -196,8 +195,8 @@ body{
     }
     .contact-form .btn-cancel{
       color: #fff;
-      background-color: #8d0217;
-      border-color: #8d0217;
+      background-color: #BE0228;
+      border-color: #BE0228;
     }
     .contact-form .btn-cancel:hover{
       background-color:#28309d;
@@ -219,7 +218,7 @@ body{
     color: #1e1e1e;
   }
   .text-block span a:hover{
-     color: #8d0217;
+     color: #BE0228;
   }
   
   .page-header{
@@ -229,19 +228,19 @@ body{
   
 .training .card{
   background-color: #fff;
-  box-shadow: 2px 2px 4px 2px #0c0f36;
+  box-shadow: 2px 2px 4px 2px #0c0f46;
 }
 .training .card-header{
   color: #fff;
-  background-color: #0c0f36;
+  background-color: #0c0f46;
 }
 .training .card-body{
   color: #000;
 }
 .training .card-footer .btn-request{
   color: #fff;
-  border-color: #8d0217;
-  background-color: #8d0217;
+  border-color: #BE0228;
+  background-color: #BE0228;
 }
 .training .card-footer .btn-request:hover{
   border-color: #3841ba;
@@ -255,7 +254,7 @@ body{
 }
 .training .reason .card-header{
   color: #fff;
-  background-color: #0c0f36;
+  background-color: #0c0f46;
 }
 .training .reason .card-body{
   color: #000;
@@ -266,15 +265,15 @@ body{
 .infra .card .card-header,
 .soft .card .card-header{
   color: #fff;
-  background-color: #0c0f36;
+  background-color: #0c0f46;
 }
 .dbr .btn-demo,
 .csec .btn-demo,
 .infra .btn-demo,
 .soft .btn-demo{
   color:#fff;
-  border-color: #8d0217;
-  background-color: #8d0217;
+  border-color: #BE0228;
+  background-color: #BE0228;
 }
 .dbr .btn-demo:hover,
 .csec .btn-demo:hover,

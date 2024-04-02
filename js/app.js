@@ -4,9 +4,17 @@ $(document).ready(function(){
 
      // Scroll to services
      $("#goto_services").click(function(){
-        console.log('Go to Services');
         const services = document.getElementById("services");
         services.scrollIntoView();
+    });
+
+    //Show hidden content
+    $("#awareness-toggle").click(function(){
+      showHideContent('awareness-toggle', 'awareness-indicator');
+    });
+
+    $("#teams-toggle").click(function(){
+      showHideContent('teams-toggle', 'teams-indicator');
     });
 
     //Change theme
@@ -19,6 +27,7 @@ $(document).ready(function(){
     $("#blue-theme").click(function(){
       changeTheme('blue');
     });
+
 
     changeNavBackground();
 });
@@ -72,3 +81,24 @@ function changeTheme(theme){
   }
 }
 
+function showHideContent(toggler, icon){
+  var $toggle = document.getElementById(toggler);  
+  var $icon = document.getElementById(icon);
+
+  var $title = $toggle.getAttribute("title");
+
+  if($title === "Show"){
+     
+    console.log("Change title to 'Hide' and icon to 'Arrow UP'");
+    $toggle.setAttribute("title", "Hide");
+    $('#'+icon).empty();
+    $icon.innerHTML = '<i class="bi bi-arrow-up-circle"></i>';
+  }
+  else if($title === "Hide"){
+    console.log("Change title to 'Show' and icon to 'Arrow DOWN'");
+    $toggle.setAttribute("title", "Show");
+    $('#'+icon).empty();
+    $icon.innerHTML = '<i class="bi bi-arrow-down-circle"></i>';
+  }
+
+}

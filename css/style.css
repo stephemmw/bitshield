@@ -1,11 +1,28 @@
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-image: url('../images/network.png');
-  background-position: top;
-  background-size: contain;
-  background-repeat: repeat-y;
 }
-footer .nav .nav-item .nav-link{
+
+.footer{
+  margin-top: 10vh;
+  border-top: 2px solid;
+}
+.footer .card{
+  min-height: 20vh;
+  margin-bottom: 2rem;
+  background-image: url('../images/footer-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 2px;
+  border: none;
+}
+.footer .card .card-header{
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.footer .nav .nav-item .nav-link{
   font-size: .95rem;
   font-weight: 600;
 }
@@ -19,17 +36,20 @@ footer .nav .nav-item .nav-link{
   font-weight: 600;
   text-decoration: none;
 }
-footer .nav .nav-item .nav-link.list-header:hover{
+.footer .nav .nav-item .nav-link.list-header{
+  width:100%;
+}
+.footer .nav .nav-item .nav-link.list-header:hover{
   text-decoration: none;
  }
-footer .nav .nav-item .nav-link.list-header h6{
+.footer .nav .nav-item .nav-link.list-header h6{
   font-weight: 600;
   text-decoration: none;
 }
-footer .nav .nav-item .nav-link.list-header h6:hover{
+.footer .nav .nav-item .nav-link.list-header h6:hover{
   text-decoration: none;
 }
-footer .footer-copy{
+.footer .footer-copy{
   margin-bottom: .5rem;
   font-size: .9rem;
   font-weight: 600;
@@ -87,7 +107,7 @@ footer .footer-copy{
 }
 .section{
   width: 100%;
-  min-height: 100vh;  
+  min-height: fit-content;  
   padding-top: 2.5rem;
   padding-bottom: 2rem;
   z-index: -5;
@@ -98,7 +118,7 @@ footer .footer-copy{
   padding-top: .5rem;
   padding-bottom: .5rem;
   margin-bottom: 2rem;
-  font-size: 1.15rem;
+  font-size: 1.5rem;
   font-weight:600;
   text-align: center;  
 }
@@ -129,7 +149,7 @@ footer .footer-copy{
 .landing{
     width:100%;
     height: 100vh;
-    background-image: url('../images/landing-image.png');
+    background-image: url('../images/bg-mobile.png');
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
@@ -171,15 +191,22 @@ footer .footer-copy{
     margin-left: 5px;
     margin-right: 5px;
     margin-bottom: 3rem;
+    min-height: 350px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-image: url('../images/card-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
   }
   .landing-services .card .card-header{   
     line-height: 1.15rem;
     font-size: 1.25rem;
     font-weight:600;
-    text-decoration: underline 3px;
   }
   .landing-services .card .card-body{
     font-size: 1.10rem;
+    font-weight: 600;
   }
   .landing-services .card .card-footer{
     text-align: left;
@@ -219,12 +246,24 @@ footer .footer-copy{
   font-size: 2.25rem;
   font-weight: 600;
 }
+.partners, .clients{
+  background-image: url('../images/bg2.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+}
 .contact .nav .nav-item .nav-link{
   font-size: 1rem;
   font-weight: 600;
 }
 .contact .nav .nav-item .nav-link:hover> span{
   border-bottom: 2px solid;
+}
+.contact .card{
+  background-image: url('../images/bg2.png');  
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .contact .card .card-header{
   padding: 0px;
@@ -237,6 +276,7 @@ footer .footer-copy{
   font-size: 1.05rem;
   font-weight: 600;
   text-align: center;
+  border-width: 2px;
 }
 .modal .modal-dialog .modal-content .modal-header{
   width: 100%;
@@ -258,6 +298,15 @@ footer .footer-copy{
   min-width:25%;
   font-weight: 600;
 }
+
+.about .card{
+  min-height: 300px;
+  background-image: url('../images/card2-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .text-block{
   display: block;
   margin-bottom: 2rem;
@@ -288,48 +337,41 @@ footer .footer-copy{
   text-decoration: none;
 }
 
-.training .card{
-  padding: 0px;
-}
-.training .card-header{
-  font-size: 1.5rem;
-  text-align: left;
-  text-decoration: none;
-  border-bottom-width: 2px;
-  border-bottom-style: solid;
-}
-.training .card .card-body p{
-  font-weight: 500;
-}
-.training h4{
-  font-size: 1.25rem;
-  font-weight: 600;
-  border-bottom: 2px solid;
-}
-.training ol li{
-  font-size: 1.05rem;
-  font-weight: 600;
-  padding: 2px;
-  margin-bottom: 1rem;
-}
-.training .card-footer{
-  text-align: left;
-}
-.training .card-footer .btn-request{
-  border: 2px solid;
-  font-size: 1.15rem;
-  font-weight: 600;
-}
-
 .btn-demo{
   font-weight: 600;
   border-width: 2px;
   border-style: solid;
 }
+.training .toggler{
+  font-size: .95rem;
+  font-weight: 600;
+  text-decoration-style: solid;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+.training .collapse ol li{
+  font-size: 1rem;
+  margin-bottom: .95rem;
+}
+
+.csec .card,
+.dbr .card,
+.infra .card,
+.soft .card,
+.training .card{
+  min-height: 320px;
+  background-image: url('../images/card2-bg.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 @media screen and (min-width: 1024px) {
     .navbar .nav .nav-item .nav-link{
         font-size: 1.05rem;
+    }
+    .landing{
+      background-image: url('../images/bg.png');
     }
     .landing h1{
         font-size: 3.25rem;
@@ -372,6 +414,7 @@ footer .footer-copy{
 
   .text-block{
     display: block;
+    padding: 10px;
     font-size: 1.25rem;
     font-weight: 500;
     text-align: center;
